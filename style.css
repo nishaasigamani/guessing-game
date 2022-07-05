@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica&family=Shrikhand&display=swap');
+*{
+    padding: 0;
+    margin: 0
+}
+body{
+    background-color: peachpuff;
+    font-family: 'Shrikhand', cursive;
+}
+.container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      margin: 100px;
+      border: solid black;
+}
+img{
+    width: 100px;
+    height: 100px;
+}

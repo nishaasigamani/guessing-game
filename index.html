@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guessing game</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./lose.html">
+    <link rel="stylesheet" href="./win.html">
+</head>
+<body>
+    <div class="container">
+        <h1>I HAVE A NUMBER IN MY MIND:)</h1>
+        <h1>CAN YOU GUESS IT:)</h1>
+        <div class="input-container">
+            <input type="text" name="" id= "inputnumber" min="0" max="100">
+            <button type="submit" id="submit">GUESS</button>
+        </div>
+        <h2 id="lives-text">
+            Lives: <span id="lives">10</span>
+        </h2>
+        <div id="message"></div>
+    </div>
+</body>
+<script src="./app.js" type="module"></script>
+</html>
